@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> Forms </title>
+	<meta lang="en"/>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<style type="text/css">
+	
+	legend {
+	text-align:center;
+	}
+	
+	textarea {
+	width: 100%
+	}
+	
+	legend {
+	font-size: 2vw;
+	}
+	
+	fieldset {
+	background-image: url("background.jpg");
+	}
+	
+	</style>
+</head>
+
+<body style="background-color:#e7f4fe;font-family:arial">
+	<header>
+	<nav>
+		<table border="0" width="100%" height="50" align="center" cellspacing="4" cellpadding="7" id="navtable">
+		<tr height="50">
+
+			<td width="2%"></td>
+
+			<td width="6%"><img src="Logo.png" width="100%" alt="Real Living Real Estate Logo"></td>
+
+			<td width="60%"><a href="page1.html" title="Go to Home"><button class="button" style="text-align:left;width:60%;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> REAL LIVING REAL ESTATE </big></b></td>
+
+			<td align="center" width="6%" height="50"><a href="page1.html" title="Go to Home"><button class="button" style="width:100;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> HOME </big></b></td>
+
+			<td align="center" width="6%" height="50"><a href="page2.html" title="Go to Gallery"><button class="button" style="width:100;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> GALLERY </big></b></td>
+
+			<td width="2%"></td>
+
+		</table>
+	</nav>
+	</header>
+
+	<div class="Title" style="text-align:center">
+		<h1> Tell Us About Your Dream Home </h1>
+	</div>
+
+	<div style="display: grid; grid-template-columns: 600px; justify-content: center; padding-top: 40px; padding-bottom: 40px">
+        <fieldset>
+            <legend > Your Information </legend>
+			<form action="mailto:reallivingrealestate@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+                <br />
+                <br />
+				<label for="quantity">Age:</label>
+				<input type="number" id="quantity" name="quantity" min="1">
+                <br />
+                <br />
+				<label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+					<option>Non-binary</option>
+                    <option>Rather not say</option>
+                </select>
+                <br />
+                <br />
+				<label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                <br />
+                <br />
+                <label for="nation">Nationality:</label>
+                <select name="nation" id="nation">
+                    <option>Filipino</option>
+                    <option>Chinese</option>
+                    <option>American</option>
+                    <option>Other</option>
+                </select>
+                <br />
+                <br />
+                <label for="status">Status:</label>
+                <select name="status" id="status">
+                    <option>Single</option>
+                    <option>Married</option>
+                    <option>Widowed</option>
+                    <option>Divorced</option>
+				</select>
+
+                <br />
+
+                <p>Household Income Range:</p>
+                     <input type="radio" id="1" >
+                     <label for="1">Less than PHP 19,999</label>
+                        <br />
+                     <input type="radio" id="2" >
+                     <label for="2">PHP 20,000 -  PHP 44,999 </label>
+                        <br />
+                     <input type="radio" id="3" >
+                     <label for="3">PHP 45,000 - PHP 139,999 </label>
+                        <br />
+                     <input type="radio" id="4" >
+                     <label for="4">PHP 140,000 - PHP 149,999 </label>
+                        <br />
+                     <input type="radio" id="5" >
+                    <label for="5">PHP 150,000+</label>
+
+                <p>Select the banks you are using:</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> BDO </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> RCBC </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3">BPI</label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Landbank </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Maya Bank </label>
+					<br />
+                    <br />
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+
+			<br />
+			<br />
+
+        <fieldset>
+            <legend > Your Dream Home </legend>
+            <form action="mailto:reallivingrealestate@example.com">
+                <label for="birthday">Select the Date Today:</label>
+                <input type="date" id="dates">
+				<br />
+
+					<p>What architectural style do you prefer for your dream house?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>Where would your dream house be located, and why?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>How many bedrooms and bathrooms would your ideal home have, and what features are essential?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>What outdoor spaces or landscaping elements do you envision for your dream house?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+				<br />
+				<br />
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+                </form>
+            </fieldset>
+
+			<br />
+			<br />
+
+            <fieldset>
+                <legend > Your Real Estate Agent</legend>
+                <form action="mailto:reallivingrealestate@example.com">
+                    <p>How did you go about selecting your current real estate agent, and what factors influenced your decision?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>Can you share any positive or challenging experiences you've had working with your real estate agent during the home buying/selling process?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>In your opinion, what qualities or skills does an effective real estate agent possess, and how has your agent demonstrated these traits?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>How has your real estate agent tailored their approach to meet your specific needs and preferences throughout the buying/selling process?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>Can you provide examples of how your real estate agent has demonstrated a deep understanding of the local real estate market and its trends?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>In your opinion, what sets your current real estate agent apart from others you may have worked with or considered?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+
+                    <p>Reflecting on your overall experience, what aspects of the relationship with your real estate agent have been most valuable to you in achieving your real estate goals?</p>
+                    <textarea id="tarea"  rows="4" cols="50"></textarea>
+				<br />
+				<br />
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+                </form>
+            </fieldset>
+
+			<br />
+			<br />
+
+        <fieldset>
+			<legend > Help Us Improve Our Service </legend>
+			<form action="mailto:reallivingrealestate@example.com>
+            <label for="source"> How did you find out about Real Living Real Estate? </label>
+				<input list="source" name="source" style="width: 300px;" placeholder="Choose one of the following">
+					<datalist id="source">
+					<option value="Advertisements">
+                    <option value="Family">
+                    <option value="Friends">
+                    <option value="Social Media">
+                    <option value="Recommendation">
+					</datalist>
+
+					<p>How satisfied are you with the responsiveness and communication of our real estate agents during your property transactions?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Very Satisfied</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Satisfied</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Neutral</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Dissatisfied</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Very Dissatisfied</label>
+
+                    <p>In your recent real estate transaction, how would you rate the accuracy and transparency of the information provided by our company?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Excellent</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Good</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Average</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Poor</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Very Poor</label>
+
+                    <p>How likely are you to recommend our real estate company to friends or family based on your overall experience?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Very Likely</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Likely</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Neutral</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Unlikely</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Very Unlikely</label>
+
+                    <p>Please rate the effectiveness of our marketing strategies in promoting and selling properties.</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Excellent</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Good</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Average</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Poor</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Very Poor</label>
+
+                   <p>How well did our company address and resolve any concerns or issues that arose during your real estate transaction?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Excellent</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Good</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Average</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Poor</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Very Poor</label>
+
+	                <p>Please select all the areas where you believe our real estate company can improve its services:</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Communication with Clients </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Property Marketing </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Negotiation Skills </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Timeliness of Transactions </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Customer Support </label>
+
+					<p>Which additional services would you like our real estate company to offer? Please check all that apply.</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Home Staging </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Virtual Property Tours </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Legal Advisory Services </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Property Management </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Investment Consultation </label>
+
+					<p>Which factors influenced your decision to choose our real estate company for your property transaction? Please check all that apply.</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Reputation </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Recommendations </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Competitive Pricing </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Range of Services </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Online Reviews </label>
+
+					<p>Please select the aspects of our customer service that you believe contribute to a positive experience. </p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Responsiveness </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Clarity in Communication </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Proactive Problem Resolution </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Knowledgeable Agents </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Personalized Service </label>
+
+					<p>Which technology tools or platforms would you like our real estate company to leverage for a more enhanced customer experience? Please check all that apply.</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Virtual Reality Property Tours </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Augmented Reality for Property Viewing </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> AI-driven Property Recommendations </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Online Chat Support </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Enhanced Mobile App Features </label>
+
+                    <br />
+					<br />
+
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+
+			</form>
+        </fieldset>
+
+			<br />
+			<br />
+
+        <fieldset>
+            <legend> Help Us Improve Our Website </legend>
+            <form action="mailto:reallivingrealestate@example.com">
+                    <p>How satisfied are you with the overall user interface and navigation of our real estate website?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Very Satisfied</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Satisfied</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Neutral</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Dissatisfied</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Very Dissatisfied</label>
+
+                    <p>How often do you visit our website for real estate information?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Daily</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Weekly</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Monthly</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Rarely</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Never</label>
+
+                    <p>Which feature of our website do you find most useful in your real estate search?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Property Listings</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Advanced Search Filters</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Neighborhood Information</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Mortgage Calculator</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Virtual Tours</label>
+
+                    <p>How would you rate the responsiveness and loading speed of our website?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Excellent</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Good</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Average</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Poor</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Very Poor</label>
+
+                    <p>Which device do you primarily use to access our real estate website?</p>
+                    <input type="radio" id="1" >
+                    <label for="1">Desktop Computer</label>
+                    <br />
+                    <input type="radio" id="2" >
+                    <label for="2">Laptop</label>
+                    <br />
+                    <input type="radio" id="3" >
+                    <label for="3">Tablet</label>
+                    <br />
+                    <input type="radio" id="4" >
+                    <label for="4">Smartphone</label>
+                    <br />
+                    <input type="radio" id="5" >
+                    <label for="5">Other</label>
+
+	                <p>Please select all the aspects of our website that you believe need improvement:</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Property Descriptions </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Photo Quality </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Map Integration </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Loading Speed </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> User Account Features </label>
+
+					<p>Which additional features would you like to see on our website? Please check all that apply.</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Live Chat Support </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Video Tours </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Neighborhood Reviews </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Price Trends </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Virtual Reality Property Tours </label>
+
+					<p>Which social media platforms do you think our real estate website should be more active on? Please check all that apply.</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Facebook </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Instagram </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Twitter </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> LinkedIn </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Pinterest </label>
+
+					<p>Please select the types of real estate information you would like to see more prominently featured on our website:</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Market Trends </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> Buying Guides </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Selling Guides </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Financing Tips </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> Home Improvement Ideas </label>
+
+					<p>As a user, which communication channels do you prefer for receiving updates and notifications from our real estate website? Please check all that apply.</p>
+                    <input type="checkbox" id="1">
+                    <label for="1"> Email </label>
+					<br />
+                    <input type="checkbox" id="2">
+                    <label for="2"> SMS/Text Messages </label>
+					<br />
+                    <input type="checkbox" id="3">
+                    <label for="3"> Push Notifications or Mobile App </label>
+					<br />
+                    <input type="checkbox" id="4">
+                    <label for="4"> Newsletter </label>
+					<br />
+                    <input type="checkbox" id="5">
+                    <label for="5"> None, I prefer not to receive notifications </label>
+
+                    <br />
+					<br />
+
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+
+            </form>
+        </fieldset>
+        </div>
+
+	<hr style="width:90%;height:2px;border-width:0;background-color:#000000" />
+
+	<footer>
+		<table border="0" width="100%" height="50" align="center" cellspacing="4" cellpadding="7" id="navtable">
+		<tr height="50">
+
+			<td width="5%"></td>
+
+			<td width="6%"><img src="Logo.png" width="100%" alt="Real Living Real Estate Logo"></td>
+
+			<td width="60%"><button class="button" style="text-align:left;width:60%;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> REAL LIVING REAL ESTATE </big></b></td>
+
+			<td align="right" width="20%" height="50" style=
+			"width:100;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b> &copy Copyright 2024 </b></td>
+
+			<td width="5%"></td>
+		</table>
+	</footer>
+
+</body>
+</html>

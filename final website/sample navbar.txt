@@ -1,0 +1,62 @@
+<! DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar_style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title> Sample NavBar </title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="Logo.jpg"/></div>
+
+        <ul class="nav-links">
+
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+                <div class="menu">
+
+                    <li><a href="MainPage.html">HOME</a></li>
+                    
+                    <li class="dripmenu"><a href="Menu.html">MENU</a>
+                        <ul class="dropdown">
+                            <li><a href="CoffeeProducts.html">COFFEE PRODUCTS</a></li>
+                            <li><a href="NonCoffeeProducts.html">NON-COFFEE PRODUCTS</a></li>
+                            <li><a href="Frappuccino.html">FRAPPUCCINO</a></li>
+                            <li><a href="FoodProducts.html">FOOD PRODUCTS</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="reviews"><a href="Reviews.html">REVIEWS</a>
+                        <ul class="dropdown">
+                            <li><a href="GrabReviews.html">GRAB REVIEWS</a></li>
+                            <li><a href="FacebookReviews.html">FACEBOOK REVIEWS</a></li>
+                            <li><a href="AddReview.html">ADD YOUR REVIEW HERE</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="about"><a href="About Us.html">ABOUT US</a>
+                        <ul class="dropdown">
+                            <li><a href="History.html">HISTORY</a></li>
+                            <li><a href="Mission.html">MISSION</a></li>
+                            <li><a href="Vision.html">VISION</a></li>
+                            <li><a href="BranchMap.html">BRANCH MAP</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="Contact Us.html">CONTACT US</a></li>
+
+                    <li class="support"><a href="Support.html">SUPPORT</a>
+                        <ul class="dropdown">
+                            <li><a href="Services.html">SERVICES</a></li>
+                            <li><a href="CustomerFeedback.html">CUSTOMER FEEDBACK</a></li>
+                        </ul>
+                    </li>
+
+                </div>
+        </ul>
+    </nav>
+</body>
+</html>

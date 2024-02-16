@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: left;
+    color: #E86A7F;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.contactbody {
+    padding: 0 10%;
+}
+
+/* Style Sections */
+.column1, .column2 {
+    float: none;
+    width: auto;
+    padding: 10px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.icon {
+    width: 30px;
+}
+
+label.none {
+    display: none;
+}
+
+input[type=text] {
+    border: none;
+    padding: 5px;
+    color: #454545;
+}
+
+select {
+    border: none;
+    color: #454545;
+    padding:  5px;
+}
+
+textarea {
+    border: none;
+    color: #454545;
+    padding: 5x;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 10px;
+    color: #454545;
+}
+
+input[type=reset] {
+    border: none;
+    padding: 10px;
+    color: #454545;
+}
+
+@media screen and (max-width: 768px) {
+.column1 {
+    width:100%
+}
+
+.column2 {
+    width: 100%; 
+    padding-top: 10%; 
+}
+    
+}    

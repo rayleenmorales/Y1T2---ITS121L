@@ -1,0 +1,156 @@
+<!-- DOCTYPE html -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">       
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>ClickNPick</title>
+    </head>
+<body>
+
+<nav>
+    <div class="topnav" id="myTopnav">
+        <a href="morales_ex4.html"><img src="images/LogoClick.jpg" alt="ClickNPick Logo" class="logo"></a>
+        <a href="morales_ex4.html" style="padding-top: 35px"><b>HOME</b></a>
+        <a href="Services.html" style="padding-top: 35px"><b>SERVICES</b></a>
+        <a href="Gallery.html" style="padding-top: 35px"><b>GALLERY</b></a>
+        <a href="Testimonials.html" style="padding-top: 35px"><b>TESTIMONIALS</b></a>
+        <a href="AboutUs.html" style="padding-top: 35px"><b>ABOUT US</b></a>
+        <a href="ContactUs.html" style="padding-top: 35px"><b>CONTACT US</b></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="padding-top: 35px">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+</nav>
+
+<!-- CSS Multiple Background -->
+<header>
+    <div id="multiplebg"></div>
+</header>
+
+<!-- First Section -->
+<div class="section" style="background-color: #EB987A;">
+<br />
+<br />
+<br />
+    <div class="row">
+        <div class="column1">
+            <img src="images/mainimg1.jpg" class="imgsection">
+        </div>
+        <div class="column2">
+            <h3 style="color:#454545">Hey There!</h3>
+            <p style="color: #454545"><b>We’re Mack and Pouya - professional cake tasters, wedding criers, and just outright lovers of love. In short, we’re pretty big fans of marriage! Book us to immortalize one of the most memorable days of your love story!</b></p>
+            <a href="AboutUs.html" class="button"><button type="button"><b>GET TO KNOW US</b></button></a>
+        </div>
+    </div>
+<br />
+<br />
+<br />
+</div>
+
+<br />
+<br />
+<br />
+
+<!-- Second Section/Slideshow -->
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="images/slide1.jpg" style="width:100%;vertical-align: middle">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide2.jpg" style="width:100%;vertical-align: middle">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/slide3.jpg" style="width:100%;vertical-align: middle">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The Dots/Circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<br />
+<br />
+<br />
+
+<!--- Third Section --> 
+<div class="section" style="background-color: #E86A7F;">
+<br />
+<br />
+<br />
+    <div class="row">
+        <div class="column1">
+            <img src="images/mainimg2.jpg" class="imgsection">
+        </div>
+        <div class="column2">
+            <h3 style="color:#F8F6EF">Set a Date!</h3>
+            <p style="color:#F8F6EF"><b>Worried about the budget? We’ve got you covered with our customizable packages! Select whether you want an engagement shoot, ceremony video, photo booth, digital copies, or all! Let’s check the calendar for your big day!</b></p>
+            <a href="Services.html" class="button"><button type="button"><b>BOOK NOW</b></button></a>
+        </div>
+    </div>
+<br />
+<br />
+<br />
+</div>
+
+<footer>
+    <div class="footer">
+        <br />
+        <p> &#169; 2024. All Rights Reserved.</p>
+        <br />
+    </div>
+</footer>
+
+<!-- Javascript --> 
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } else {
+    x.className = "topnav";
+    }
+}
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}    
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+}
+for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";  
+dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+</body>    
+</html>

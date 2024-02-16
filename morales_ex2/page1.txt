@@ -1,0 +1,143 @@
+<! DOCTYPE html>
+<html>
+
+<head>
+	<title> Real Living Real Estate </title>
+	<meta lang="en"/>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+	<style type="text/css">
+	
+	#fullref { 
+		position: relative; 
+		display: inline-block; 
+		padding-left: 1em; 
+		left: 50%; 
+		transform: translateX(-50%); 
+	}
+	
+	* {
+		box-sizing: border-box;
+	}
+
+	.column {
+		float: left;
+		width: 50%;
+		padding: 1vw;
+	}
+	
+	.column p {
+		font-size: 1vw;
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	p {
+		text-indent: 50px;
+	{
+	
+	</style>
+</head>
+
+<body style="background-color:#e7f4fe;font-family:arial">
+	<header>
+	<nav>
+		<table border="0" width="100%" height="50" align="center" cellspacing="4" cellpadding="7" id="navtable">
+		<tr height="50">
+			
+			<td width="2%"></td>
+			
+			<td width="6%"><img src="Logo.png" width="100%" alt="Real Living Real Estate Logo"></td>
+			
+			<td width="60%"><a href="page1.html" title="Go to Home"><button class="button" style="text-align:left;width:60%;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> REAL LIVING REAL ESTATE </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="page1.html" title="Go to Home"><button class="button" style="width:100;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> HOME </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="page2.html" title="Go to Gallery"><button class="button" style="width:100;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> GALLERY </big></b></td>
+
+			<td width="2%"></td>
+			
+		</table>
+	</nav>
+	</header>
+
+<div class="HeaderImage">
+	<img src="HeaderImage.jpg" alt="Header Image" style="width:1920;height:1020" usemap="#headerimage"/>
+		<! Header image is not responsive because it's not compatible with the image map. Best viewed in a 1920x1080 screen. I'll have to use JS next time.>
+	
+	<map name="headerimage">
+	
+	<area shape="rect" coords="150,467,407,523" href="page3.html" />
+	
+	</map>
+	
+</div>
+
+<div class="Background" style="background-image:url("background.jpg")>
+
+<br />
+<br />
+
+<div class="Paragraph1">
+	<h1 align="center">WHO WE ARE</h1>
+	<div class="row">
+	<div class="column">
+	<img src="mainimage1.jpg" alt="Buildings" style="max-width:100%;float:right;padding-left:10%" />
+	</div>
+	<div class="column" style="padding-right:10%">
+	<br/>
+	<br/>	
+	<p><b>Real Living Real Estate</b> is a full-service real estate brokerage franchise company with a comprehensive and integrated suite of resources for franchisees and their sales professionals, as well as for consumers who work with them. In 2016 and 2017, Real Living Real Estate was named <i>"Real Estate Agency Brand of the Year"</i> in the ongoing Harris Poll EquiTrend® study; and was named <i>"Most Loved"</i> and <i>"Most Trusted"</i> real estate brand in the study in consecutive years. Additionally, the Real Living Brand and its innovative concepts were recognized by Entrepreneur magazine as well as Inman News, receiving several Inman Innovator Awards. Real Living was also named <i>"the Most Promising New National Brand"</i> by the Swanepoel TRENDS Report. Real Living Real Estate is a network brand of HSF Affiliates LLC, which is owned by HomeServices of America, Inc., a Berkshire Hathaway affiliate.</p>
+	</div>
+	</div>
+</div>
+
+<br />
+<br />
+
+<div class="Paragraph2">
+	<div class="row">
+	<div class="column">
+	<img src="mainimage2.jpg" alt="Making a Deal" style="max-width:100%;float:right;padding-left:10%" />
+	</div>
+	<div class="column" style="padding-right:10%"> 
+	<br/>
+	<br/>			
+	<p>Real Living leads the real estate industry with a customer satisfaction rating of <u>98 percent</u>, based upon research conducted by a third party, independent research firm*.</p>
+	
+	<p>Based in Minneapolis, Minn., HomeServices of America, Inc. is the second-largest, full-service residential real estate brokerage firm and the largest brokerage-owned settlement services provider in the U.S. and is the majority owner in the Prudential Real Estate and Real Living Real Estate franchise networks. Owned by MidAmerican Energy Holdings Company, a consolidated subsidiary of Berkshire Hathaway Inc., HomeServices' operating companies offer integrated real estate services, including brokerage services, mortgage originations, title and closing services, property and casualty insurance, home warranties and other homeownership services.</p>
+	
+	</div>
+	</div>
+</div>
+
+<br />
+<br />
+
+</div>
+
+<hr style="width:90%;height:2px;border-width:0;background-color:#000000" />
+
+	<footer>
+		<table border="0" width="100%" height="50" align="center" cellspacing="4" cellpadding="7" id="navtable">
+		<tr height="50">
+			
+			<td width="5%"></td>
+			
+			<td width="6%"><img src="Logo.png" width="100%" alt="Real Living Real Estate Logo"></td>
+			
+			<td width="60%"><button class="button" style="text-align:left;width:60%;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b><big> REAL LIVING REAL ESTATE </big></b></td>
+			
+			<td align="right" width="6%" height="50" style=
+			"width:100;height:30;background-color:#e7f4fe;border:0;color:#000000;font-family:arial"><b> &copy Copyright 2024 </b></td>
+
+			<td width="5%"></td>			
+		</table>
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: #E86A7F;
+}
+
+.aboutbody {
+    padding: 0 10%;
+}
+
+#borderimg1 {
+    border: 10px solid transparent;
+    border-image: url(../images/borderimage.png) 30 round;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: #454545;
+}

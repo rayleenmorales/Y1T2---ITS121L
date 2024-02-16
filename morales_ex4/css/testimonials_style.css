@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: #E86A7F;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: #454545;
+}
+
+.testbody {
+    padding: 0 10%;
+}
+
+.checked {
+    color: orange;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.profilepics {
+    max-width: 15%;
+    height: auto;
+    margin-left: 15px;
+    float: right;
+    border-radius: 50%;
+}
