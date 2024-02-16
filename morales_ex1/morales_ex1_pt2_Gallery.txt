@@ -1,0 +1,205 @@
+<! DOCTYPE html>
+<html>
+<head>	
+	<title>BenCab Website</title>
+	<meta lang="en"/>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+	<style type="text/css">
+	
+	table.geninfotable {
+		border-collapse: collapse;
+		width: 60%;
+		margin: 20px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		background-color: #fff;
+		border-radius: 8px;
+		overflow: hidden;
+	}
+	
+	table.geninfotable th {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;		
+	}
+
+	table.geninfotable td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;		
+	}	
+
+    table.tablegallery {
+      align: center;
+	  border-collapse: collapse;
+      width: 80%;
+      margin-top: 20px;
+    }
+
+    table.tablegallery td {
+      padding: 5px;
+	  align: center;
+    }
+
+    table.tablegallery img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+	
+	</style>
+</head>
+
+<body style="background-color:#fffaf1;font-family:georgia;">
+	<header>
+	<nav>
+		<table class="tablenav" border="0" width="100%" height="50" align="center" cellspacing="4" cellpadding="7">
+		<tr height="50">
+			<td width="60%"><a href="morales_ex1_pt2.html" title="Go to Home"><button class="button" style="text-align:left;width:60%;height:30;background-color:#fffaf1;border:0;color:#e4a957;font-family:verdana"><b><big> BENCAB WEBSITE </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="morales_ex1_pt2.html#Introduction" title="Skip to Introduction"><button class="button" style="width:120;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> Introduction </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="morales_ex1_pt2.html#Discussion" title="Skip to Discussion"><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> Discussion </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="morales_ex1_pt2.html#References" title="Skip to References"><button class="button" style="width:110;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> References </big></b></td>
+			
+			<td align="center" width="4%" height="50"> | </td>
+			
+			<td align="center" width="6%" height="50"><a href="morales_ex1_pt2.html" title="Go to Home"><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> HOME </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="morales_ex1_pt2_Gallery.html" title="Go to Gallery"><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> GALLERY </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="morales_ex1_pt2_About.html" title="Go to About"><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> ABOUT </big></b></td>
+		</table>
+	</nav>
+	</header>
+	
+	<br />
+	<br />
+	<h3 align="center">GALLERY</h3>
+	<br />
+	<table class="tablegallery" align="center">
+		<tbody>
+			<tr>
+				<td><img src="image1.jpg" alt="Larawan Series, 1994"></td>
+				<td><img src="image2.jpg" alt="Vendor, 2015"></td>
+				<td><img src="image3.jpg" alt="Sabel, 2005"></td>
+				<td><img src="image4.jpg" alt="Wandering Woman, 1994"></td>
+				<td><img src="image5.jpg" alt="Dancing Couple, 1995"></td>
+			</tr>
+			<tr>
+				<td><img src="image6.jpg" alt="Yellow Parasol, 1987"></td>
+				<td><img src="image7.jpg" alt="Dance Forms, 2015"></td>
+				<td><img src="image8.jpg" alt="Payaso, 1969"></td>
+				<td><img src="image9.jpg" alt="Woman with Pillow, 1981"></td>
+				<td><img src="image10.jpg" alt="Sabel, 2006"></td>
+			</tr>
+			<tr>
+				<td><img src="image11.jpg" alt="Churchgoers, 2013"></td>
+				<td><img src="image12.jpg" alt="Rolly (Cocojam), 1995"></td>
+				<td><img src="image13.jpg" alt="A Poet in Exile (Jose Garcia Villa), 1978"></td>
+				<td><img src="image14.jpg" alt="The Last March, 1972"></td>
+				<td><img src="image15.jpg" alt="Girl with Salakot, 1972"></td>
+			</tr>	
+			<tr>
+				<td><img src="image16.jpg" alt="Mother and Child, 1986"></td>
+				<td><img src="image17.jpg" alt="Umbrellas, 1986"></td>
+				<td><img src="image18.jpg" alt="Man Hiding Face, 1986"></td>
+				<td><img src="image19.jpg" alt="Untitled (Larawan Series), 1974"></td>
+				<td><img src="image20.jpg" alt="Untitled (Punk), 1981"></td>
+			</tr>
+			<tr>
+				<td><img src="image21.jpg" alt="Portrait of a Man with Dog, 1987"></td>
+				<td><img src="image22.jpg" alt="Untitled, 1987"></td>
+				<td><img src="image23.jpg" alt="The Hunters, 1983"></td>
+				<td><img src="image24.jpg" alt="Edmund Fortuno, 1995"></td>
+				<td><img src="image25.jpg" alt="Mother and Child, 2003"></td>
+			</tr>			
+		</tbody>
+	</table>
+	
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<hr style="height:2px;border-width:0;color:gray;background-color:#f5d5a4;width:60%"/>
+	<br />
+	<br />
+	<br />
+	
+	<div align="center"
+	<p><q><i>The longer you look at an object, the more abstract it becomes, <br /> and, ironically, the more real.</i></q></p>
+	<p> 
+	by Lucian Freud
+	</p>
+	</div>	
+
+	<br />
+	<br />
+	<br />
+	<hr style="height:2px;border-width:0;color:gray;background-color:#f5d5a4;width:60%"/>
+	<br />
+	<br />
+	<br />	
+	
+	<div align="center">
+	<h3>General Information</h3>
+	<p> To have a deeper appreciation with the works of our national artist, <br /> visit the real-life BenCab Museaum in Baguio City and take part in the EcoTrail tour. <br /> It is open from <b>Tuesdays</b> to <b>Sundays</b>. However, it is closed during Mondays, <br /> Christmas Days, and New Year's day. See below for more details:</p>
+	
+	<table class="geninfotable">
+		<thead>
+			<tr>
+				<th>Fees</th>
+				<th>Addmission to the Museum</th>
+				<th>EcoTrail Tour</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>&#8369 200.00</td>
+				<td>General Admission</td>
+				<td>Regular Fee</td>
+			</tr>
+			<tr>
+				<td>&#8369 150.00</td>
+				<td colspan="2">Senior/PWD with valid ID</td>
+			</tr>
+			<tr>
+				<td>&#8369 120.00</td>
+				<td colspan="2">Student with valid Philippine school issued ID</td>
+			</tr>
+			<tr>
+				<td>&#8369 150.00*</td>
+				<td>N/A</td>
+				<td>Guide fee per group*</td>
+			</tr>
+			<tr>
+				<td>Free</td>
+				<td>Child no taller than 42"</td>
+				<td>N/A</td>
+			</tr>
+		</tbody>
+	</table>
+	<caption>
+	<p> *An Eco-trail Guide will be assigned to accompany children (6 to 12) in groups of 10 and other hikers (aged 13 onwards) in groups of 15 <br /> Special rates for students & organized groups with minimum of 30 guests.</p>
+	</caption>
+	</div>
+
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+	<footer style="background-color:#E4A957;text-align:center">
+		<br />
+		<b> The BenCab Museum &nbsp; &#8226; &nbsp; By Rayleen Morales of BM1 &nbsp; &#8226; &nbsp; In partial fulfillment of ITS121L <br /> Last updated at: <time datetime="2023-12-09T11:30"> December 9 2023 at 11:30 a.m.</time> </b>
+		<br />	<br />
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<! DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title> BenCab Website </title>
+
+</head>
+
+<body style="background-color:#fffaf1;font-family:georgia;">
+
+<table border="0" width="100%" height="50" align="center" cellspacing="4" cellpadding="7">
+	<tr height="50">
+			<td width="60%"><a href="morales_ex1.html" title="Go to Home"><button class="button" style="text-align:left;width:60%;height:30;background-color:#fffaf1;border:0;color:#e4a957;font-family:verdana"><b><big> BENCAB WEBSITE </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="#Introduction" title="Skip to Introduction"><button class="button" style="width:120;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> Introduction </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="#Discussion" title="Skip to Discussion"><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> Discussion </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="#References" title="Skip to References"><button class="button" style="width:110;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> References </big></b></td>
+			
+			<td align="center" width="4%" height="50"> | </td>
+			
+			<td align="center" width="6%" height="50"><a href="morales_ex1.html" title="Go to Home"><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> HOME </big></b></td>
+			
+			<! Pages not yet made. I'll finish them for part two of the exercise>
+			
+			<td align="center" width="6%" height="50"><a href="----" title="Page not made. See comments."><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> GALLERY </big></b></td>
+			
+			<td align="center" width="6%" height="50"><a href="----" title="Page not made. See comment."><button class="button" style="width:100;height:30;background-color:#fffaf1;border:0;color:#5a5753;font-family:georgia"><b><big> ABOUT </big></b></td>
+	
+</table>
+<br />
+
+<img src="deathandressurection.jpg" alt="Death and Ressurection by BenCab" style="width:100%">
+<h6>Benedicto Cabrera</h6>
+
+<center>
+<h3 id="Introduction" style="font-family:verdana"><b> INTRODUCTION </b></h3>
+<br/>
+	<img src="bencab.jpg" alt="Image of BenCab" max-width="100%"/>
+	<h4><i> About The Artist </i></h4>
+	<p><b> Benedicto Cabrera </b>, better known as BenCab, is considered the preeminent Filipino painter of his generation. Primarily figurative, Cabrera’s work often depicts woman and occasionally men wrapped in swirling, bundled fabrics and capes. He was born on April 10, 1942 in Malabon, Philippines, and studied at the University of the Phillippines. In 1963, he won first prize for his oil painting of a talipapa, or market, in a student competition, and was hired soon after by the national paper as its Sunday illustrator. Cabrera’s first exhibition of oil and acrylic paintings was held at the Indigo Gallery in Mabini in 1965, and has since shown work in New York, Los Angeles, Paris, Tokyo, and notably London, where has lived on and off for much of his professional career. In 2006, the Philippine Government conferred upon him the Order of National Artist for Visual Arts. </p>
+</center>
+
+<br />
+<hr style="height:2px;border-width:0;color:gray;background-color:#f5d5a4"/>
+<br />
+
+<h3 align="center" id="Discussion" style="font-family:verdana"><b> DISCUSSION </b></h3>
+	<h4 style="text-align:center"><i> A Brief History of BenCab </i></h4>
+	<ol type="1">
+	<li> 1942 </li>
+	<p> Born April 10 in Malabon, Manila, Philippines, at the onset of the Japanese occupation. Benedicto Reyes Cabrera is the youngest of nine children born to Democrito Cabrera and Isabel Reyes of Pampanga. At age six months, his family moves to Mayhaligue St. in Sta. Cruz, Manila. He starts painting on the pavement and on walls at age seven, and is influenced by his older brother Salvador, who is already an established artist. Salvador takes him everywhere, exposing him to the world of art.</p>
+
+	<li> 1959 </li>
+	<p> After a high school life of selling his science project illustrations and portraits, which he sells for one to five pesos, to his 59 classmates at the Arellano High School, Benedicto Cabrera enrolls at the University of the Philippines’ (U.P.) College of Fine Arts – one of five finalists of the Castro scholarship.</p>
+	
+	<li> 1962 </li>
+	<p> Receives the Second Prize at the 12th Shell National Students Art Competition for his painting Blue Serenity, a surreal abstraction of barung-barong (shanties). He also ssists U.P. art professor Jose Joya in the execution of the set design for the ballet Swan Lake staged at the Rizal Theater and U.P. Theater. Commissioned to illustrate two books.</p>
+	
+	<li> 1963 </li>
+	<p> Wins First Prize for his oil painting of a talipapa (market) entered in the U.P. Student Council Art Competition and drops out of college before finishing his degree in Fine Arts with a major in Illustration. He also joins the new staff of Liwayway Magazine as illustrator (with Ang Kiukok, Alfredo Roces, Romy Mananquil, Arthur Nicdao) for three months when the magazine is modernized by Morita Roces-Guerrero.</p>
+
+	<li> 1964 </li>
+	<p> He adopts the contraction Bencab to avoid confusion with other painters named Cabrera. Together with three other painters, Bal Magallona Jr., Edgar Soller, and his brother Salvador, sets up Sining, a studio / workshop / gallery on Mabini. They soon get kicked out for being three months behind in the rent.</p>
+	
+	<li> 1966 </li>
+	<p> At age 24, holds his first solo exhibition of oil and acrylic paintings at the Indigo Gallery in Mabini which he establishes with brother Salvador and friends Bibsy Carballo and Francisco Navarro. Exhibiting mainly young artists and photography as an art form, it is an alternative to the other two existing galleries, Luz Gallery and Solidaridad. Introduces for the first time the character Sabel. </p>
+	
+	<li> 1967 </li>
+	<p> Garners three awards at the 20th AAP Annual Exhibition and Competition in the Photography category: First Prize for Yerro, Second Prize for Manok, and Honorable Mention for Pader. In 1968, he joins the Saturday Group in Exhibition of Nudes, at the Solidaridad Galleries. It is the first exhibition in Manila totally devoted to the nude figure.</p>
+	
+	<li> 1969 </li>
+	<p> Leaves the Philippines for the first time to represent the country at the renowned VI Paris Biennale, together with Virgilio Aviado and Lamberto Hechanova, with a set of hard-edged, spray-painted, abstract oil paintings. Also travels through Thailand, Hong Kong, India, Nepal, Switzerland, Italy before going on to London where he marries his English fiancée. </p>
+	
+	<li> 1970 </li>
+	<p> Chosen one of Thirteen Artists, a recognition given by the Cultural Center of the Philippines to “the country’s most active, most aggressively ambitious talents…who have gained considerable maturity and recognition…a new generation (of artists) that promises to dominate Philippine art of the seventies.” It is the first batch of thirteen awardees in what will eventually become a periodic tribute.</p>
+	
+	<li> 1986 </li>
+	<p> After his divorce, returns to the Philippines in time to be a part of the EDSA people-power revolution which topples the regime of President Marcos and, consistent with his being a chronicler of events, paints a second version of Two Filipinas… This time, in EDSA Event, the two women are standing in a rain of yellow confetti. </p>
+	
+	<li> 1992 </li>
+	<p> Receives the Gawad CCP Para Sa Sining (CCP Award For The Arts) for Visual Arts, awarded by the Cultural Center of the Philippines (CCP), “for his paintings and prints which offer valuable insights into the Filipinos’ past and present and which exemplify innovative techniques and the highest artistry; and for his leadership in artists’ organizations.” </p>
+
+	<li> 1994 </li>
+	<p> Receives the Most Outstanding Kapampangan for Arts & Culture (Painting) Award from Philippine President Ramos on Pampanga Day, “for bringing honor to the people and province of Pampanga”, his native province. Participates in Art Line & Strokes: A Painting & Print Exhibition Of Contemporary Filipino Visual Artists held at the Hong Kong Visual Art Centre and the China Club in Hong Kong. </p>
+	
+	<li> 2006 </li>
+	<p> Exhibits Bencab: Impressions at the Singapore Tyler Print Institute, the complete production of his residency there. The collection is then brought to Manila and is exhibited at the Cultural Center of the Philippines as Bencab on Paper: Prints & Paper Pulp Paintings. Conferred the Order of National Artist for Visual Arts by President Gloria Macapagal-Arroyo in Malacañang Palace </p>
+	
+	</ol>
+
+<br />
+<hr style="height:2px;border-width:0;color:gray;background-color:#f5d5a4"/>
+<br />
+
+<h3 align="center" id="References" style="font-family:verdana"><b> REFERENCES </b></h3>
+<ul type="circle">
+	<li><a href="https://www.artnet.com/artists/benedicto-cabrera" target="_blank"> ArtNet </a></li>
+	<li><a href="https://www.bencabmuseum.org/national-artist/" target="_blank"> BenCab Museum </a></li>
+	<li><a href="https://blog.salcedoauctions.com/bencab-artworks/" target="_blank"> Salcedo Auctions </a></li>
+</ul>
+
+<br />
+<br />
+
+</body>
+
+</html>
